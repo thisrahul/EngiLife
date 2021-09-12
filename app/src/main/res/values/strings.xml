@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">EngiLife</string>
+    <string name="hint">Search for Hotel,City or Location</string>
+    <string name="notification">Notification</string>
+    <string name="home">Home</string>
+    <string name="bookings">Bookings</string>
+    <string name="offers">Offers</string>
+    <string name="invite"><![CDATA[Invite & Earn]]></string>
+    <string name="text1">Stop waiting, karo pehli booking!</string>
+    <string name="text2">Our Collections</string>
+    <string name="text3"><![CDATA[Play & Win]]></string>
+    <string name="text4">Wizard</string>
+    <string name="text5">Your Kinda Stay</string>
+    <string name="txt6"><![CDATA[Refer & Earn 2200 OYO Rupee]]></string>
+    <string name="txt7">Your wallets</string>
+    <string name="txt8"><![CDATA[Invite & Earn OYO Rupees]]></string>
+</resources>

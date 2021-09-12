@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="@string/home"
+        android:id="@+id/action_home"
+        android:icon="@drawable/ic_home"
+        android:iconTint="@color/white"/>
+    <item
+        android:title="@string/bookings"
+        android:id="@+id/action_bookings"
+        android:icon="@drawable/ic_bookings"
+        android:iconTint="@color/white"/>
+    <item
+        android:title="@string/offers"
+        android:id="@+id/action_offers"
+        android:icon="@drawable/ic_offers"
+        android:iconTint="@color/white"/>
+    <item
+        android:title="@string/invite"
+        android:id="@+id/action_invite"
+        android:icon="@drawable/ic_invite"
+        android:iconTint="@color/white"/>
+    <item
+        android:title="@string/need"
+        android:id="@+id/action_help"
+        android:icon="@drawable/ic_need"
+        android:iconTint="@color/white"/>
+</menu>

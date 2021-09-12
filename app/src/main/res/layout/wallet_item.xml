@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="130dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgWallet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/chennai"/>
+
+        <TextView
+            android:id="@+id/txtRs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="%00Rs"
+            android:textSize="16sp"
+            android:paddingStart="20dp"
+            android:paddingEnd="30dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:drawablePadding="2dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/wallet"
+            android:layout_gravity="center_vertical"/>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</androidx.cardview.widget.CardView>
